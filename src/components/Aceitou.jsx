@@ -49,9 +49,9 @@ const Aceitou = () => {
       Eu te amo muito bê 💜</h2>
 
       <div className="pagesArea">
-        <a href="feliz">Quando você estiver feliz</a>
-        <a href="triste">Quando você estiver triste</a>
-        <a href="baterNoIgor">Quando você quiser espancar o Igor</a>
+        <a href="#feliz">Quando você estiver feliz</a>
+        <a href="#triste">Quando você estiver triste</a>
+        <a href="#baterNoIgor">Quando você quiser espancar o Igor</a>
       </div>
 
     </div>

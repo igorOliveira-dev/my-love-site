@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router , Routes , Route } from 'react-router-dom';
 
 import './App.css';
 import Contrato from './components/contrato';
@@ -10,15 +10,15 @@ import BaterNoIgor from './components/paginas/BaterNoIgor'
 function App() {
   return (
     <div>
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<Contrato />} />
-          <Route path='/Aceitou' element={<Aceitou />} />
-          <Route path='/feliz' element={<Feliz />} />
-          <Route path='/triste' element={<Triste />} />
-          <Route path='/baterNoIgor' element={<BaterNoIgor />} />
-        </Routes>
-      </BrowserRouter>
+        <Router>
+          <Routes>
+            <Route path='/' element={<Contrato />} />
+            <Route path='/Aceitou' element={<Aceitou />} />
+            <Route path='/feliz' element={<Feliz />} />
+            <Route path='/triste' element={<Triste />} />
+            <Route path='/baterNoIgor' element={<BaterNoIgor />} />
+          </Routes>
+        </Router>
     </div>
   )
 }
