@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.pContrato {
+    font-size: 20px;
+    margin: 15px;
+    text-align: center;
+}
+
+.pergaminho {
+    height: 400px;
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contractText {
+    font-size: 20px;
+}
+
+.pergaminhoIMG {
+    height: 500px;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fimDoContrato {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.fimDoContrato > a {
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: transparent;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 10px;
+    transition: .5s;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.fimDoContrato > a:hover {
+    background-color: #ffffff50;
+}
