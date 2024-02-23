@@ -1,29 +1,53 @@
+import {Swiper, SwiperSlide} from 'swiper/react'
+import { register } from 'swiper/element/bundle'
+register();
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/scrollbar'
+
 import React from 'react'
 import './styleComponents/aceitou.css'
 
-import {Swiper, SwiperSlide} from 'swiper/react'
+import foto1 from '/1foto.png'
+import foto2 from '/2foto.png'
+import foto3 from '/3foto.png'
+import foto4 from '/4foto.png'
+import foto5 from '/5foto.png'
+import foto6 from '/6foto.png'
+import foto7 from '/7foto.png'
+import foto8 from '/8foto.png'
+import foto9 from '/9foto.png'
+import foto10 from '/10foto.png'
+import foto11 from '/11foto.png'
+import foto12 from '/12foto.png'
+import foto13 from '/13foto.png'
+import foto14 from '/14foto.png'
+import foto15 from '/15foto.png'
+import foto16 from '/16foto.png'
+import foto17 from '/17foto.png'
+import foto18 from '/18foto.png'
 
 const Aceitou = () => {
 
   const swiperImages = [
-    {id: '1', image: '1foto.png'},
-    {id: '2', image: '2foto.png'},
-    {id: '3', image: '3foto.png'},
-    {id: '4', image: '4foto.png'},
-    {id: '5', image: '5foto.png'},
-    {id: '6', image: '6foto.png'},
-    {id: '7', image: '7foto.png'},
-    {id: '8', image: '8foto.png'},
-    {id: '9', image: '9foto.png'},
-    {id: '10', image: '10foto.png'},
-    {id: '11', image: '11foto.png'},
-    {id: '12', image: '12foto.png'},
-    {id: '13', image: '13foto.png'},
-    {id: '14', image: '14foto.png'},
-    {id: '15', image: '15foto.png'},
-    {id: '16', image: '16foto.png'},
-    {id: '17', image: '17foto.png'},
-    {id: '18', image: '18foto.png'},
+    {id: '1', image: foto1},
+    {id: '2', image: foto2},
+    {id: '3', image: foto3},
+    {id: '4', image: foto4},
+    {id: '5', image: foto5},
+    {id: '6', image: foto6},
+    {id: '7', image: foto7},
+    {id: '8', image: foto8},
+    {id: '9', image: foto9},
+    {id: '10', image: foto10},
+    {id: '11', image: foto11},
+    {id: '12', image: foto12},
+    {id: '13', image: foto13},
+    {id: '14', image: foto14},
+    {id: '15', image: foto15},
+    {id: '16', image: foto16},
+    {id: '17', image: foto17},
+    {id: '18', image: foto18},
   ]
   
   return (
@@ -40,6 +64,7 @@ const Aceitou = () => {
             src={item.image}
             alt="Slider"
             className='slide-item'
+            style={{position: 'relative',}}
             />
           </SwiperSlide>
         ))}
@@ -53,7 +78,6 @@ const Aceitou = () => {
         <a href="#triste">Quando você estiver triste</a>
         <a href="#baterNoIgor">Quando você quiser espancar o Igor</a>
       </div>
-
     </div>
   )
 }
